@@ -184,7 +184,7 @@ Before you begin, ensure you have the following installed on your system:
 
    ```javascript
    const DBpath =
-     "mongodb+srv://yourUsername:yourPassword@yourCluster.mongodb.net/airbnb?appName=airBnb";
+     "keep your DB string here";
    ```
 
 2. **Session Configuration**
@@ -513,16 +513,6 @@ This project is licensed under the ISC License - see the LICENSE file for detail
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-## 📞 Support & Contact
-
-For issues, questions, or suggestions:
-
-- Create an issue in the GitHub repository
-- Contact the development team
-- Email: support@airbnbclone.com
 
 ---
 
