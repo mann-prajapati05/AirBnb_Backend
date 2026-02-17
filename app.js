@@ -1,4 +1,5 @@
 // Core Module
+require('dotenv').config();
 const path = require('path');
 
 // External Module
@@ -9,7 +10,7 @@ const MongoStore = require("connect-mongodb-session")(session);
 const multer=require('multer');
 
 
-const DBpath = "mongodb+srv://mann:Password@airbnb.unu77r4.mongodb.net/airbnb?appName=airBnb";
+const DBpath=process.env.MONGO_STR;
 
 //Local Module
 const authRouter = require("./routes/authRouter");
